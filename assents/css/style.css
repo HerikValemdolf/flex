@@ -6,11 +6,12 @@
 
                 /*HEADER*/
 
+ /*HEADER CONFIG GERAL*/               
  header{
      display: flex;
      justify-content: center;
      height: 120px;
- }               
+ } 
 .container{
     display: flex;
     justify-content: space-between;
@@ -23,5 +24,25 @@
     margin: 10px;
 }
 .menu{
-
+    display: flex;
+    align-items: center;
+    
 }
+nav ul{
+    display: flex;
+    list-style: none;
+    
+}
+nav li{
+    padding: 10px;
+}
+nav a{
+    text-decoration: none;
+    font-size: 19px;
+    color: rgba(0, 0, 0, 0.782);
+}
+
+
+
+
+
