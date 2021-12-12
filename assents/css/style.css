@@ -160,6 +160,8 @@ nav a:hover{
 }
 article{
     flex: 1;
+    min-width: 300px;
+    margin-right: 20px;
 }
 article a{
     text-decoration: none;
@@ -197,4 +199,15 @@ article .news_resume{
     font-size: 14px;
     color: rgba(0, 0, 0, 0.7);
     line-height: 20px;
+    margin-bottom: 30px;
 }
+
+
+                    /*FOOTER*/
+
+footer{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
